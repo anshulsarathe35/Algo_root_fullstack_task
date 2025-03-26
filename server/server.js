@@ -9,7 +9,7 @@ dotenv.config();
 connectDB();
 
 const app = express();
-import cors from "cors";
+
 
 // Allow requests from frontend
 const allowedOrigins = ["http://localhost:5173", "https://algo-root-fullstack-task-5.onrender.com"];
