@@ -12,11 +12,11 @@ const app = express();
 
 
 // Allow requests from frontend
-const allowedOrigins = ["http://localhost:5173", "https://algo-root-fullstack-task-5.onrender.com"];
+// const allowedOrigins = ["http://localhost:5173", "https://algo-root-fullstack-task-5.onrender.com"];
 
 app.use(
   cors({
-    origin: allowedOrigins,
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })

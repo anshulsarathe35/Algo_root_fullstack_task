@@ -6,7 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://algo-root-fullstack-task-5.onrender.com",
+      "/api": {
+        target: "https://algo-root-fullstack-task-5.onrender.com",
+        changeOrigin: true,
+        secure: true,
+      },
     },
   },
 });
