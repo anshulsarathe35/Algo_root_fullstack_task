@@ -12,8 +12,8 @@ The application is designed to showcase full-stack development skills, including
 - Error handling and API response standardization.
 - Deployed frontend and backend with live URLs.
 
-- frontend - 
-- backend  - 
+- frontend - https://algo-root-fullstack-task.vercel.app/
+- backend  - https://algo-root-fullstack-task-5.onrender.com
 
 ---
 
