@@ -40,6 +40,8 @@ The application is designed to showcase full-stack development skills, including
 - **Tailwind CSS** for UI styling.
 
 ---
+![image](https://github.com/user-attachments/assets/2b1222e8-cf3e-40a4-8789-a6f8046e47d6)
+
 
 ##  **Project Structure**
 ```bash
