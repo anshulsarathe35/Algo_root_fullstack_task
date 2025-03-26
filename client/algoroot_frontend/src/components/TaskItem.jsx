@@ -1,4 +1,4 @@
-// src/components/TaskItem.jsx
+
 import { useState } from "react";
 import { updateTask, deleteTask } from "../api/taskApi";
 import {Check, X} from "lucide-react"

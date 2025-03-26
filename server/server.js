@@ -9,7 +9,19 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+import cors from "cors";
+
+// Allow requests from frontend
+const allowedOrigins = ["http://localhost:5173", "https://algo-root-fullstack-task-5.onrender.com"];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 //added as described in the task document
